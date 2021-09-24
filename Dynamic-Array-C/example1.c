@@ -1,7 +1,6 @@
 #include "dynarray.h"
 
 int main() {
-    printf("%X\n", set.create);
     set_t* nums = set.create(sizeof(int), 10);
 
     for (int i = 0; i < 100; i++) {
