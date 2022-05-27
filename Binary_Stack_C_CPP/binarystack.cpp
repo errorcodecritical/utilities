@@ -40,7 +40,7 @@ public:
     template <typename T, size_t array_length>
     binarystack& operator<<(T (&data)[array_length]);
 
-    // Push array of elements from stack;
+    // Pop array of elements from stack;
     template <typename T, size_t array_length>
     binarystack& operator>>(T (&data)[array_length]);
 
